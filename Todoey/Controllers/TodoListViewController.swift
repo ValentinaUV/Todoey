@@ -27,7 +27,6 @@ class TodoListViewController: SwipeTableViewController {
         tableView.separatorStyle = .none
     }
     
-    
     override func viewWillAppear(_ animated: Bool) {
         
         if let colorHex = selectedCategory?.color {
